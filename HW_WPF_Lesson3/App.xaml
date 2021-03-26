@@ -1,0 +1,12 @@
+﻿<Application x:Class="HW_WPF_Lesson3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HW_WPF_Lesson3"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button" x:Key="AppStyleHint">
+            <Setter Property="Background" Value="#FF1765EE"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
